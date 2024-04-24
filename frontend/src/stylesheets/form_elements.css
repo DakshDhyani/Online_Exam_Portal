@@ -1,0 +1,42 @@
+input,
+select {
+  height: 40px !important;
+  padding: 10px 20px !important;
+  border: 2px solid rgb(131, 130, 130) !important;
+  width: 80%;
+  border-radius: 2px !important;
+}
+
+
+.primary-btn
+{
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+}
+
+.ant-form-item
+{
+    margin-bottom: 5px !important;
+    /* Important bcoz we are overriding that */
+}
+
+button{
+    cursor: pointer;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+.primary-outlined-btn {
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+  }
+
+  .primary-contained-btn {
+    background-color: var(--primary);
+    color: white;
+  }
+  
